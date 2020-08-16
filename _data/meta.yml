@@ -5,15 +5,15 @@
 # Replace the values here with your project` information.
 project:
   # The name of the organisation or entity that owns this project
-  organisation: "Electric Book Works"
+  organisation: "RJ Gordon"
   # A live web address for the organisation
   url: "http://electricbook.works/"
   # The default contact email address
-  email: "support@electricbook.works"
+  email: "rjeremygodon@gmail.com"
   # The name of the project of books in this folder.
-  name: "The Electric Book template"
+  name: "Useful Buddhist Teachings"
   # A one-liner about this project. Useful for Open Graph metadata.
-  description: "This is Electric Book template, a way to build websites, books and ebooks from the same master content. Created and maintained by Electric Book Works."
+  description: "A book based on posts from the Useful Buddhist Teachings Facebook forum, from 2011-2020."
   # The logo of the organisation, saved web-ready in /assets
   logo: "publisher-logo.jpg"
   # An image in /assets/images/web that stands for the project
@@ -39,16 +39,16 @@ project:
 
 works:
   - directory: "book"
-    title: "Template"
+    title: "Useful Buddhist Teachings"
     subtitle: ""
-    creator: "A. N. Author" # E.g. the author
+    creator: "RJ Gordon" # E.g. the author
     contributor: "" # E.g. other contributors
-    subject: "Fiction" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
-    description: "The Electric Book's blank template." # E.g. the blurb
-    publisher: "EBW" # E.g. the publisher, imprint or brand name
+    subject: "Spirituality" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
+    description: "A book based on posts from the Useful Buddhist Teachings Facebook forum, from 2011-2020." # E.g. the blurb
+    publisher: "" # E.g. the publisher, imprint or brand name
     publisher-url: ""
-    date: "2015-12-31" # YYYY-MM-DD e.g. publication date
-    modified: "2016-06-09" # YYYY-MM-DD e.g. date of last revision
+    date: "2020-08-16" # YYYY-MM-DD e.g. publication date
+    modified: "2020-08-16" # YYYY-MM-DD e.g. date of last revision
     type: "Novel" # e.g. Novel, Poetry, Memoir
     identifier: "" # e.g. ISBN or UUID
     source: "" # e.g. parent ISBN or ISTC
@@ -65,21 +65,13 @@ works:
         image: "cover.jpg"
         files:
           - "0-1-titlepage"
-          - "0-2-copyright"
-          - "0-3-contents"
+          # - "0-2-copyright"
+          # - "0-3-contents"
           - "01"
-          - "02"
+          # - "02"
         toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
-          - label: "Chapter 1"
+          - label: "Useful Buddhist Teachings"
             file: "01"
-            id: "1-hello-world"
-          - label: "Chapter 2"
-            file: "02"
-            id: "2-goodbye-world"
-            children: 
-              - label: "Subsection"
-                file: "02"
-                id: "example-id"
       web:
         date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital online" # e.g. Paperback, Digital download, Digital online
@@ -88,33 +80,32 @@ works:
         files:
           - "index"
           - "0-1-titlepage"
-          - "0-2-copyright"
-          - "0-3-contents"
-          - "01": "Chapter One"
-          - "02": "Chapter Two"
+          # - "0-2-copyright"
+          # - "0-3-contents"
+          - "01": "Useful Buddhist Teachings"
         nav: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
           - label: "Frontmatter"
             children:
               - label: "Cover"
                 file: "index"
-              - label: "Title page"
-                file: "0-1-titlepage"
-              - label: "Copyright"
-                file: "0-2-copyright"
-          - label: "Contents"
-            file: "0-3-contents"
-          - label: "Chapter One"
+              # - label: "Title page"
+              #   file: "0-1-titlepage"
+              # - label: "Copyright"
+              #   file: "0-2-copyright"
+          # - label: "Contents"
+          #   file: "0-3-contents"
+          - label: "Useful Buddhist Teachings"
             file: "01"
-            id: "1-hello-world"
-          - label: "Chapter Two"
-            file: "02"
-            id: "2-goodbye-world"
-            children: 
-              - label: "Subsection"
-                file: "02"
-                id: "example-id"
-        start-page: "0-3-contents" # At which file should users start reading?
-        contents-page: "0-3-contents" # Your contents-page file, if you have one.
+            # id: "1-hello-world"
+          # - label: "Chapter Two"
+          #   file: "02"
+          #   id: "2-goodbye-world"
+          #   children: 
+          #     - label: "Subsection"
+          #       file: "02"
+          #       id: "example-id"
+        start-page: "01" # At which file should users start reading?
+        # contents-page: "0-3-contents" # Your contents-page file, if you have one.
       epub:
         date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
@@ -143,17 +134,19 @@ works:
           - label: "Chapter Two"
             file: "02"
       screen-pdf:
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
+        date: "2016-05-07" # YYYY-MM-DD e.g. publication or creation date
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
         files:
-          - "0-0-cover"
           - "0-1-titlepage"
-          - "0-2-copyright"
-          - "0-3-contents"
+          # - "0-2-copyright"
+          # - "0-3-contents"
           - "01"
-          - "02"
+          # - "02"
+        toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
+          - label: "Useful Buddhist Teachings"
+            file: "01"
       app:
         date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online

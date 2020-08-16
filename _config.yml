@@ -36,7 +36,7 @@ edition: "default"
 # include the url where this site will live when it's live (production).
 # E.g. canonical-url: "http://example.com"
 # In Open Graph metadata, the base URL will be appended.
-canonical-url: "https://electricbookworks.github.io"
+canonical-url: ""
 
 # Base URL
 # --------
@@ -44,7 +44,7 @@ canonical-url: "https://electricbookworks.github.io"
 # the name of your repo, e.g. /electric-book
 # It must start with a slash. Otherwise you can leave it blank. See:
 # http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
-baseurl: "/electric-book"
+baseurl: "/useful-buddhist-teachings"
 
 # GitHub Pages repository
 # -----------------------
@@ -53,7 +53,7 @@ baseurl: "/electric-book"
 # add username/repository here and uncomment/enable
 # gem 'github-pages', group: :jekyll_plugins
 # in this project's Gemfile.
-repository: ""
+repository: "christinarookie/useful-buddhist-teachings"
 
 # Navigation
 # ----------
@@ -86,9 +86,9 @@ mathjax-enabled: false
 #            across books in this project.
 collections:
   docs:
-    output: true
+    output: false
   items:
-    output: true
+    output: false
 
 # --------------------------------------------
 # CHANGE THESE SETTINGS ONLY IF/WHEN NECESSARY
