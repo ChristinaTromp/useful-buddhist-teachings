@@ -27,8 +27,8 @@ $output-format: "print-pdf" !default;
 $edition-suffix: null !default;
 
 // First, we set several variables related to overall page setup.
-$page-width: 152mm !default;
-$page-height: 229mm !default;
+$page-width: 200mm !default;
+$page-height: 200mm !default;
 $margin-top: 60pt !default; // set in points to align with baseline grid
 $margin-bottom: 60pt !default;
 $margin-outside: 20mm !default;
@@ -127,7 +127,7 @@ $hyphenate-lines: 2 !default; // Preferred maximum number of consecutive lines e
 // For breaks created with *** in markdown.
 // If using an image, set $text-divider-image in CSS URL syntax, e.g.
 // $text-divider-image: url('../images/epub/text-divider.jpg');
-$text-divider-text: "" !default; // Empty leaves space. \2022 is a bullet
+$text-divider-text: "\2022" !default; // Empty leaves space. \2022 is a bullet
 $text-divider-image: "" !default;
 $text-divider-image-height: $line-height-default !default;
 

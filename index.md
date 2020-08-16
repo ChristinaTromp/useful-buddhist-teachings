@@ -10,4 +10,5 @@ style: home
 # Useful Buddhist Teachings
 {:.no_toc}
 
-Welcome, [please come in](01.html)
+Welcome, [please come in](book/text/01.html)
+
